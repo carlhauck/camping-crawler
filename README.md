@@ -1,6 +1,7 @@
 ## To run locally
 - Run `yarn install` to install dependencies defined in `package.json`
 - Add a 'screenshots' folder at the root level of the project
+- The arrival date, departure date, and party size constants can be edited in `/tests/utils/constants.js`
 - Run `npx playwright test tests/michigan-wisconsin.spec.ts`
   - If you want to see what's happening (i.e., NOT run it headlessly), add a `--headed` flag
 
